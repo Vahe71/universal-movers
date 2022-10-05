@@ -1,7 +1,7 @@
 const cards = document.querySelectorAll('.page4 .container .cards .card');
 const cardsIcon = document.querySelectorAll('.page4 .container .cards .card .icon');
 for (let i = 0; i < cards.length; i++) {
-    cardsIcon[i].style.background = `url(img/Page4/Icon${i+1}.png) no-repeat center / contain`;
+    cardsIcon[i].style.background = `url(Img/Page4/Icon${i+1}.png) no-repeat center / contain`;
 }
 const burgerMenu = document.querySelector('header .container .burger-button');
 const nav = document.querySelector('header .container .right-panel nav');
